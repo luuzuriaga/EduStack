@@ -1,14 +1,15 @@
 import React from 'react';
+import MiDisco from './assets/disco.png';
 
 const MyPC = () => (
   <div className="window-content-modern pc-content">
     <div className="pc-grid">
       <div className="pc-item">
-        <img src="/src/assets/disco.png" />
+        <img src={MiDisco} alt="Disco" />
         <span>Disco local (C:)</span>
       </div>
       <div className="pc-item">
-        <img src="/src/assets/disco.png" />
+       <img src={MiDisco} alt="Disco" />
         <span>Unidad CD (D:)</span>
       </div>
       <div className="pc-item">
