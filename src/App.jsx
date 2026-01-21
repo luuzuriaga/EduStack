@@ -4,7 +4,7 @@ import EduStack from './EduStack';
 import MyPC from './MyPC';
 import EduTube from './EduTube'; 
 import './App.css';
-import logoYoutube from './assets/youtube.png';
+import youtubeIcon from './assets/youtube.png';
 
 const INITIAL_RESOURCES = [
   // FRONTEND
@@ -70,7 +70,7 @@ function App() {
         </div>
 
         <div className="desktop-icon-item" onClick={() => toggleWin('tube')}>
-          <img src={logoYoutube} alt="EduTube" />
+          <img src={youtubeIcon} alt="EduTube" />
           <span className="icon-label">EduTube.exe</span>
         </div>
       </div>
@@ -128,7 +128,7 @@ function App() {
                 EduStack.exe
               </div>
               <div className="start-item" onClick={() => openFromStart('tube')}>
-                <img src={logoYoutube} width="24" alt="" />
+                <img src={youtubeIcon} width="24" alt="" />
                 EduTube.exe
               </div>
               <div className="start-divider"></div>
